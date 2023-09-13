@@ -28,7 +28,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$roman = 2023;
-		$number = 1945;
+		$number = "MMXXIII";
 		$data = [
 			'number' => 'Hasil roman dari ' . $roman . ' adalah : ' .  toRoman($roman),
 			'roman' => 'Hasil romawi dari ' . $number . ' adalah : ' .  toNumber($number),
