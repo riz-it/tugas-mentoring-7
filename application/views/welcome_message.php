@@ -88,9 +88,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p><?= $roman ?></p>
 		<br>
 		<p>No : 3a & 3b</p>
-		<p><?= $letterDate ?></p>
-		<hr>
 		<p><?= $numericDate ?></p>
+		<hr>
+		<p><?= $letterDate ?></p>
 	</div>
 </div>
 
